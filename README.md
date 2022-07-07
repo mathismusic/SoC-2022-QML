@@ -1,3 +1,1 @@
-# QC, ML, QML - SoC 2022
-
-Week 1
+# SoC 2022 - Quantum Machine Learning
