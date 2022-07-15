@@ -1,12 +1,13 @@
 # Week 3
 We discuss the Quantum Fourier Transform and applications. Reading is parts of Chap 5 of QCQI.
 <br/>
+
     We first discuss the Quantum Fourier transform and a nice compact form for it. This motivates a simple implementation of the transform and also proves that the transform is unitary(though that can be proved directly from the definition as well). We then discuss Phase estimation, which is a very clever way to compute the phase of a (unit modulus) eigenvalue of a unitary operator(its order must be a power of 2, though). We also analyse the performance of the algorithm and the probability of success. Finally we implement the algorithm in Qiskit. 
 <br/>
     Next, we look at Order finding. It solves the classic problem of finding the order of a number modulo another(if this was classically so trivial, a lot of IMO problems would have been much easier :) ) using phase-estimation of a well-chosen unitary operator. I wonder how they came up with that operator though, once you get some of its eigenvalues it makes a lot of sense, but how would someone come up with it in the first place? The order-finding algorithm uses an oracle that can compute powers of the unitary applied to a qubit register. It also uses phase-estimation as a subroutine and a bit of fraction manipulation as a classical subroutine at the end. Finally we get our order $r$ with high probability(with the probability of success of the phase-estimation subroutine). A clever point here is that we make use of the fact that the eigenvectors in question when weighted with a phase sum up to $|1\rangle$, so we needn't specifically prepare an eigenstate(which incidentally, would likely not even be possible since the eigenstate requires that you know $r$, or conversely, if it were possible, then we could possibly extract $r$ from it itself! - perhaps it is indeed possible to prepare it though, that's something to think about!)
     
-    Shor: ### Work in progress!
-    
+    Shor: 
+    ### Work in progress!
     
 Then we discuss Quantum Search and Grover's algorithm. Reading is parts of Chap 6 of QCQI. The geometric idea behind Grover's algorithm is simply superb, it was so so nice.
   Two nice points to note: Using $\frac{|0\rangle - |1\rangle}{\sqrt{2}}$ as the target to the oracle is a good idea(Grover) & also, 
