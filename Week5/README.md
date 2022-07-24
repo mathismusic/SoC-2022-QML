@@ -1,4 +1,5 @@
-# Week 5: Quantum Machine Learning. Applying ML ideas to Quantum Circuits and vice-versa.
+# Week 5: Quantum Machine Learning
+### Applying ML ideas to Quantum Circuits and vice-versa.
 This week, we look at a few applications of hybrid QML: using a Quantum Circuit together with a classical device to compute molecular parameters(variational method applications) or to find new features in images(in QNNs, for example). We also implement some simple QML projects in ``PennyLane``.
 
 In both projects below, the molecule is simulated by a bunch of qubits and the hamiltonian is correspondingly converted into a set of Pauli Gates $\{I, X, Y, Z\}$ on the qubits using the Jordan-Wigner transformation.
