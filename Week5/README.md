@@ -8,3 +8,4 @@ In both projects below, the molecule is simulated by a bunch of qubits and the h
 Finally, we also look at image processing, in particular we implement a simple Quanvolutional Neural Network(QNN) to classify images from the MNIST dataset. Details of the implementation are in **QNN.ipynb** and the corresponding paper and PennyLane document are [here](https://arxiv.org/abs/1904.04767) and [here](https://pennylane.ai/qml/demos/tutorial_quanvolution.html).
 
 Amazing stuff, really!
+That's all for Week 5, Thank you!
