@@ -14,6 +14,6 @@ We then discuss measurement: Deferred measurement can be done, since "no informa
 Finally, we discuss univerality - a small set of gates can be used to approximate any gate to arbitrary precision.
 Any unitary can be wriiten as a product of two-level gates, any two-level gate can be built from controlled-$X$ and single qubit gates. This construction requires a huge number of gates(exponential in the number of qubits) ans so we try to approximate gates to required accuracies instead. Here we make use of $\pi/8$ and Hadamard gates. The number of gates required when using these gates to approximate single qubit gates is much lower and can be implemented.
 
-We then moved to the Coding exercises. I was first introducet to Jupyter Notebooks and the Qiskit Library. I then implemented the problems as required. It was real fun seeing the algos in action. I have some ideas for the optional ones, will do them as and when I get time.
+We then moved to the Coding exercises. I was first introduced to Jupyter Notebooks and the Qiskit Library. I then implemented the problems as required. It was real fun seeing the algos in action. I've also implemented a general Quantum n-qubit adder as a generalization to one of the codeing exercises in addition.ipynb.
 
 That's it for Week 2, Thank you for reading!
