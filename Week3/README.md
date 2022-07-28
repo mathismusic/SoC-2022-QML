@@ -13,3 +13,5 @@ One point to note. Order-finding requires us to construct the necessary unitary.
 We then look at Quantum Searching through an unstructured space with Grover's algorithm. Reading is parts of Chap 6 of QCQI. The geometric idea behind Grover's algorithm is simply superb, it was so so nice.
 
 Finlly, a nice point to note: Using $\frac{|0\rangle - |1\rangle}{\sqrt{2}}$ as the target to an oracle(that takes $|x\rangle|y\rangle \rightarrow |x\rangle|y \oplus f(x)\rangle$) is a good idea since it is an eigenvector (with eigenvalue $(-1)^{f(x)}$) of the oracle and so can be neglected from the analysis, just the $(-1)^{f(x)}$ factor is enough! This idea was first used in Deutsch-Josza and again in Grover Search.
+
+That's all for Week 3, Thank you!
